@@ -10,8 +10,8 @@ const Characters = ({ characters = [] }) => {
                         <div className='card-body'>
                             <h5 className='car-title'>{item.name}</h5>
                             <hr />
-                            <p>species: {item.species}</p>
-                            <p>location: {item.location.name}</p>
+                            <p>Especies: {item.species}</p>
+                            <p>Ubicacion: {item.location.name}</p>
                         </div>
                     </div>
                 </div>
